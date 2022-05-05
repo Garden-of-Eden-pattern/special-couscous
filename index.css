@@ -18,7 +18,7 @@
 }
 
 .intersecting-circles-spinner .spinnerBlock {
-      animation: intersecting-circles-spinners-animation 1200ms linear infinite;
+      animation: intersecting-circles-spinners-animation 1200ms linear infinite ease-in-out;
       transform-origin: center;
       display: block;
       height: 35px;
