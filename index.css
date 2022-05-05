@@ -25,6 +25,7 @@
   margin: 200px auto;
   background-color: #fff;
   border-radius: 100%;
+  animation: intersecting-circles-spinners-animation 5.0s infinite ease-in-out;
 }
 
 .intersecting-circles-spinner .spinnerBlock {
