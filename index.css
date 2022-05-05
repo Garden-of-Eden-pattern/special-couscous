@@ -3,6 +3,11 @@
   height: 100vh;
   transition: all 1.2s;
   background-color: #white;
+  
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 9999;
 }
 
 .loaded {
@@ -17,17 +22,14 @@
 .intersecting-circles-spinner {
     height: 70px;
     width: 70px;
-    position:absolute;
+    position:relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     
     margin:200px auto;
-    position: fixed;
-    top:0;
-    left:0;
-    z-index: 9999;
+   
 }
 
 .intersecting-circles-spinner .spinnerBlock {
