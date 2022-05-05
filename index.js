@@ -6,7 +6,7 @@ window.onload = function(){
 }
 
 <intersecting-circles-spinner
-  :animation-duration="1200"
+  :animation-duration="3000"
   :size="70"
   color="#ff1d5e"
 />
