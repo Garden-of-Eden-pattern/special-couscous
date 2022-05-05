@@ -1,8 +1,8 @@
 import { IntersectingCirclesSpinner } from 'epic-spinners'
 
 window.onload = function(){
-  const intersecting-circles-spinner = document.getElementByClassName('intersecting-circles-spinner .spinnerBlock');
-  intersecting-circles-spinner.classList.add('loaded');
+  const spinnerBlock = document.getElementByClassName('intersecting-circles-spinner .spinnerBlock');
+  spinnerBlock.classList.add('loaded');
 }
 
 <intersecting-circles-spinner
