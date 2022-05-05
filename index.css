@@ -8,8 +8,6 @@
 }
 
 .intersecting-circles-spinner {
-  width: 100vw;
-  height: 100vh;
   transition: all 1s;
   background-color: white;
 }
