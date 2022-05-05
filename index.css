@@ -8,13 +8,10 @@
 }
 
 .intersecting-circles-spinner {
-      height: 70px;
-      width: 70px;
-      position: relative;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
+  width: 100vw;
+  height: 100vh;
+  transition: all 1s;
+  background-color: white;
 }
 
 .intersecting-circles-spinner .spinnerBlock {
