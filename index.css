@@ -1,3 +1,10 @@
+#loading {
+  width: 100vw;
+  height: 100vh;
+  transition: all 1.2s;
+  background-color: #white;
+}
+
 .loaded {
   opacity: 0;
   visibility: hidden;
@@ -10,7 +17,7 @@
 .intersecting-circles-spinner {
     height: 70px;
     width: 70px;
-    position: relative;
+    position:absolute;
     display: flex;
     flex-direction: row;
     justify-content: center;
