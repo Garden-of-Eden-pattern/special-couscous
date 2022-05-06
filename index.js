@@ -1,5 +1,5 @@
 window.onload = function(){
   const intersecting-circles-spinner = document.getElementById('loading');
-  loading.classList.add('loaded');
+  intersecting-circles-spinner.classList.add('loaded');
 }
 
